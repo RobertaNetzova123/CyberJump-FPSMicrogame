@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 6
-  speedBuff: 50
+  speedBuff: 5
 --- !u!1 &2975595405816744089
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class LiftUp : MonoBehaviour
     public Transform theDest;
     public Transform player;
     public bool holding = false;
-    public GameObject camera;
+    public new GameObject camera;
     public float yeetForce = 500;
     void Update()
     {

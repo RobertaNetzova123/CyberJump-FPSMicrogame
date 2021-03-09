@@ -12,7 +12,7 @@ public class PlayerCharacterController : MonoBehaviour
 
     [Header("General")]
     [Tooltip("Force applied downward when in the air")]
-    public float gravityDownForce = 20f;
+    public float gravityDownForce = 30f;
     [Tooltip("Physic layers checked to consider the player grounded")]
     public LayerMask groundCheckLayers = -1;
     [Tooltip("distance from the bottom of the character controller capsule to test for grounded")]
@@ -22,22 +22,22 @@ public class PlayerCharacterController : MonoBehaviour
     [Tooltip("Max movement speed when grounded (when not sprinting)")]
     public float maxSpeedOnGround = 10f;
     [Tooltip("Sharpness for the movement when grounded, a low value will make the player accelerate and decelerate slowly, a high value will do the opposite")]
-    public float movementSharpnessOnGround = 15;
+    public float movementSharpnessOnGround = 10;
     [Tooltip("Max movement speed when crouching")]
     [Range(0,1)]
     public float maxSpeedCrouchedRatio = 0.5f;
     [Tooltip("Max movement speed when not grounded")]
-    public float maxSpeedInAir = 10f;
+    public float maxSpeedInAir = 15f;
     [Tooltip("Acceleration speed when in the air")]
-    public float accelerationSpeedInAir = 25f;
+    public float accelerationSpeedInAir = 15f;
     [Tooltip("Multiplicator for the sprint speed (based on grounded speed)")]
-    public float sprintSpeedModifier = 2f;
+    public float sprintSpeedModifier = 1.5f;
     [Tooltip("Height at which the player dies instantly when falling off the map")]
     public float killHeight = -50f;
 
     [Header("Rotation")]
     [Tooltip("Rotation speed for moving the camera")]
-    public float rotationSpeed = 200f;
+    public float rotationSpeed = 100f;
     [Range(0.1f, 1f)]
     [Tooltip("Rotation speed multiplier when aiming")]
     public float aimingRotationMultiplier = 0.4f;

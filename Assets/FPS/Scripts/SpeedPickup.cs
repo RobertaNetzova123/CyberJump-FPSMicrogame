@@ -7,7 +7,7 @@ public class SpeedPickup : MonoBehaviour
     [Tooltip("Amount of time to be invincible on pickup")]
     public float duration;
 
-    public float speedBuff;
+    public float speedBuff = 5f;
     private float originalSpeedGround;
     private float originalSpeedAir;
     private float originalSpeedCrouch;
@@ -23,7 +23,6 @@ public class SpeedPickup : MonoBehaviour
 
         // Subscribe to pickup action
         m_Pickup.onPick += OnPicked;
-        Debug.Log("fuckk off");
     }
 
     void OnPicked(PlayerCharacterController player)

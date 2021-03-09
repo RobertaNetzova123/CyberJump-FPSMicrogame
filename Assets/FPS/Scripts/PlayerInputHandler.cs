@@ -67,7 +67,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (CanProcessInput())
         {
-            return Input.GetButtonDown(GameConstants.k_ButtonNameJump);
+            return Input.GetButton(GameConstants.k_ButtonNameJump);
         }
 
         return false;
