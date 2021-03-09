@@ -23,6 +23,7 @@ public class SpeedPickup : MonoBehaviour
 
         // Subscribe to pickup action
         m_Pickup.onPick += OnPicked;
+        Debug.Log("fuckk off");
     }
 
     void OnPicked(PlayerCharacterController player)
@@ -32,7 +33,7 @@ public class SpeedPickup : MonoBehaviour
         originalSpeedGround = this.player.maxSpeedOnGround;
         originalSpeedAir = this.player.maxSpeedInAir;
         originalSpeedCrouch = this.player.maxSpeedCrouchedRatio;
-
+        
         this.player.speedActive = true;
         this.player.maxSpeedOnGround += speedBuff;
         this.player.maxSpeedInAir += speedBuff;
@@ -44,12 +45,13 @@ public class SpeedPickup : MonoBehaviour
         { 
             r.enabled = false;
         }
-
+        
         Invoke("RevertEffect", duration);
     }
 
     void RevertEffect()
     {
+        
         player.maxSpeedOnGround = originalSpeedGround;
         player.maxSpeedInAir = originalSpeedAir;
         player.maxSpeedCrouchedRatio = originalSpeedCrouch;

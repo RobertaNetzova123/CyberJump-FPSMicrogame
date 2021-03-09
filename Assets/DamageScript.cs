@@ -25,6 +25,10 @@ public class DamageScript : MonoBehaviour
         {
             health.TakeDamage(333, gameObject);
         }
-        
+        else if (other.tag == "Terrain")
+        {
+            Destroy(bullet);
+        }
+
     }
 }

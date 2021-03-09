@@ -170,8 +170,7 @@ GameObject:
   - component: {fileID: 3252859688687666258}
   - component: {fileID: 3252859688687666260}
   - component: {fileID: 3252859688687666259}
-  - component: {fileID: 3252859688687666257}
-  - component: {fileID: 3252859688687666256}
+  - component: {fileID: -3534070213081975766}
   m_Layer: 0
   m_Name: Speed
   m_TagString: Untagged
@@ -242,7 +241,7 @@ MonoBehaviour:
   rotatingSpeed: 360
   pickupSFX: {fileID: 0}
   pickupVFXPrefab: {fileID: 0}
---- !u!114 &3252859688687666257
+--- !u!114 &-3534070213081975766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -251,25 +250,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2442379774411651335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33498356859fc2040b30fc2e60beac7f, type: 3}
+  m_Script: {fileID: 11500000, guid: 673a4a6e91b34d73bf5d3d45e3bc738a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3252859688687666256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2442379774411651335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7535462baa2ed0d469f708cbe145b720, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  title: 
-  description: 
-  isOptional: 0
-  delayVisible: 0
+  duration: 6
+  speedBuff: 50
 --- !u!1 &2975595405816744089
 GameObject:
   m_ObjectHideFlags: 0

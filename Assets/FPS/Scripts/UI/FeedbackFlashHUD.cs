@@ -10,6 +10,10 @@ public class FeedbackFlashHUD : MonoBehaviour
     public CanvasGroup flashCanvasGroup;
     [Tooltip("CanvasGroup to fade the critical health vignette")]
     public CanvasGroup vignetteCanvasGroup;
+    [Tooltip("CanvasGroup to fade the invincible vignette")]
+    public CanvasGroup vignetteCanvasGroupInvincible;
+    [Tooltip("CanvasGroup to fade the speed vignette")]
+    public CanvasGroup vignetteCanvasGroupSpeed;
 
     [Header("Damage")]
     [Tooltip("Color of the damage flash")]
@@ -37,11 +41,12 @@ public class FeedbackFlashHUD : MonoBehaviour
     float m_LastTimeFlashStarted = Mathf.NegativeInfinity;
     Health m_PlayerHealth;
     GameFlowManager m_GameFlowManager;
+    private PlayerCharacterController playerCharacterController;
 
     void Start()
     {
         // Subscribe to player damage events
-        PlayerCharacterController playerCharacterController = FindObjectOfType<PlayerCharacterController>();
+        playerCharacterController = FindObjectOfType<PlayerCharacterController>();
         DebugUtility.HandleErrorIfNullFindObject<PlayerCharacterController, FeedbackFlashHUD>(playerCharacterController, this);
 
         m_PlayerHealth = playerCharacterController.GetComponent<Health>();
@@ -66,9 +71,21 @@ public class FeedbackFlashHUD : MonoBehaviour
             else
                 vignetteCanvasGroup.alpha = ((Mathf.Sin(Time.time * pulsatingVignetteFrequency) / 2) + 0.5f) * vignetteAlpha;
         }
+        else if (m_PlayerHealth.invincible)
+        {
+            vignetteCanvasGroupInvincible.gameObject.SetActive(true);
+            vignetteCanvasGroupInvincible.alpha = 50;
+        }
+        else if (playerCharacterController.speedActive)
+        {
+            vignetteCanvasGroupSpeed.gameObject.SetActive(true);
+            vignetteCanvasGroupSpeed.alpha = 50;
+        }
         else
         {
             vignetteCanvasGroup.gameObject.SetActive(false);
+            vignetteCanvasGroupInvincible.gameObject.SetActive(false);
+            vignetteCanvasGroupSpeed.gameObject.SetActive(false);
         }
 
 
