@@ -8,7 +8,7 @@ public class LiftUp : MonoBehaviour
     public Transform player;
     public bool holding = false;
     public new GameObject camera;
-    public float yeetForce = 500;
+    public float yeetForce = 1000;
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E) && !holding)
