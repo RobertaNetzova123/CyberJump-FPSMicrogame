@@ -27,11 +27,11 @@ public class PlayerCharacterController : MonoBehaviour
     [Range(0,1)]
     public float maxSpeedCrouchedRatio = 0.5f;
     [Tooltip("Max movement speed when not grounded")]
-    public float maxSpeedInAir = 15f;
+    public float maxSpeedInAir = 12f;
     [Tooltip("Acceleration speed when in the air")]
-    public float accelerationSpeedInAir = 15f;
+    public float accelerationSpeedInAir = 12f;
     [Tooltip("Multiplicator for the sprint speed (based on grounded speed)")]
-    public float sprintSpeedModifier = 1.5f;
+    public float sprintSpeedModifier = 1.2f;
     [Tooltip("Height at which the player dies instantly when falling off the map")]
     public float killHeight = -50f;
 
