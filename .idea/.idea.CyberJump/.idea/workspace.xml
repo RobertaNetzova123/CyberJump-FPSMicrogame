@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a37e54aa-c42b-42fa-a15d-9ef256a91911" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BulletScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DamageScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DamageScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/Pickup_Invincible.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/Pickup_Invincible.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/Pickup_Speed.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/Pickup_Speed.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/PowerUps/Invisibility.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/PowerUps/Invisibility.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/PowerUps/Speed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FPS/Prefabs/Pickups/PowerUps/Speed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CyberJump/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CyberJump/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CyberJump/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CyberJump/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FPS/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FPS/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Scripts/SpeedPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FPS/Scripts/SpeedPickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Scripts/UI/FeedbackFlashHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FPS/Scripts/UI/FeedbackFlashHUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FPS/Scenes/MainScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FPS/Scenes/MainScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">

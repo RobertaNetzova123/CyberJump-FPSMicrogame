@@ -49,6 +49,7 @@
             <e p="ConstantRotation.cs" t="Include" />
             <e p="Damageable.cs" t="Include" />
             <e p="DamageArea.cs" t="Include" />
+            <e p="DeathScript.cs" t="Include" />
             <e p="DebugUtility.cs" t="Include" />
             <e p="Destructable.cs" t="Include" />
             <e p="DetectionModule.cs" t="Include" />
@@ -114,6 +115,7 @@
             <e p="PuzzleObjectCollision.cs" t="Include" />
             <e p="SpeedPickup.cs" t="Include" />
             <e p="TakeScreenshot.cs" t="Include" />
+            <e p="Teleporting.cs" t="Include" />
             <e p="TeleportPlayer.cs" t="Include" />
             <e p="TemplateObject.cs" t="Include" />
             <e p="TimedSelfDestruct.cs" t="Include" />
