@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
-    [SerializeField]
-    Animator _doorAnim;
+    private Animator _doorAnim;
     [SerializeField]
     GameObject door;
 

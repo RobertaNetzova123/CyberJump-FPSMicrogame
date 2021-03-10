@@ -44,7 +44,7 @@ public class PlayerCharacterController : MonoBehaviour
 
     [Header("Jump")]
     [Tooltip("Force applied upward when jumping")]
-    public float jumpForce = 9f;
+    public float jumpForce = 10f;
 
     [Header("Stance")]
     [Tooltip("Ratio (0-1) of the character height where the camera will be at")]
