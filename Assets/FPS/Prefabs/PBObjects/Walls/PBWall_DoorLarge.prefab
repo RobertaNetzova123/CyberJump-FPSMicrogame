@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5378576300141013117}
   - component: {fileID: 1061065722966373498}
   m_Layer: 0
-  m_Name: PB_DoorFrame_Large
+  m_Name: PBWall_DoorLarge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,6 +56,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -67,6 +68,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -705,63 +707,9 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_IsSelectable: 1
-  m_SelectedFaces: 09000000
-  m_SelectedEdges:
-  - a: 123
-    b: 97
-  - a: 109
-    b: 110
-  - a: 108
-    b: 109
-  - a: 97
-    b: 98
-  - a: 98
-    b: 99
-  - a: 107
-    b: 108
-  - a: 99
-    b: 100
-  - a: 100
-    b: 101
-  - a: 101
-    b: 102
-  - a: 102
-    b: 103
-  - a: 106
-    b: 107
-  - a: 103
-    b: 104
-  - a: 104
-    b: 105
-  - a: 105
-    b: 106
-  - a: 110
-    b: 111
-  - a: 111
-    b: 112
-  - a: 122
-    b: 123
-  - a: 121
-    b: 122
-  - a: 112
-    b: 113
-  - a: 120
-    b: 121
-  - a: 119
-    b: 120
-  - a: 118
-    b: 119
-  - a: 117
-    b: 118
-  - a: 113
-    b: 114
-  - a: 116
-    b: 117
-  - a: 114
-    b: 115
-  - a: 115
-    b: 116
-  m_SelectedVertices: 6e0000007b000000610000006d0000006c00000062000000630000006b000000640000006500000066000000670000006a00000068000000690000006f000000700000007a000000790000007100000078000000770000007600000075000000720000007400000073000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!64 &1061065722966373498
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -772,7 +720,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
