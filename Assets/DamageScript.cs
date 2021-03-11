@@ -23,7 +23,7 @@ public class DamageScript : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            health.TakeDamage(333, gameObject);
+            health.TakeDamage(30, gameObject);
         }
         else if (other.tag == "Terrain")
         {

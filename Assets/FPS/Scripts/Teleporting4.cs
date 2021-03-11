@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Teleporting : MonoBehaviour
+public class Teleporting4 : MonoBehaviour
 {
     public Transform teleportTarget;
     public GameObject Player;
@@ -10,7 +10,7 @@ public class Teleporting : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Player.transform.position = teleportTarget.transform.position;
-        Player.transform.eulerAngles = new Vector3(0, 270, 0);
+        Player.transform.eulerAngles = new Vector3(0, 90, 0);
     }
 
 }
