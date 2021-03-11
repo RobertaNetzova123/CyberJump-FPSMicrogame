@@ -10,10 +10,7 @@ public class PatrolPath : MonoBehaviour
 
     private void Start()
     {
-        foreach (var enemy in enemiesToAssign)
-        {
-            enemy.patrolPath = this;
-        }
+
     }
 
     public float GetDistanceToNode(Vector3 origin, int destinationNodeIndex)

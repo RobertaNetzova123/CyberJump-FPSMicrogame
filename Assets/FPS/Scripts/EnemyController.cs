@@ -299,10 +299,6 @@ public class EnemyController : MonoBehaviour
 
     public void SetNavDestination(Vector3 destination)
     {
-        if (m_NavMeshAgent)
-        {
-            m_NavMeshAgent.SetDestination(destination);
-        }
     }
 
     public void UpdatePathDestination(bool inverseOrder = false)
