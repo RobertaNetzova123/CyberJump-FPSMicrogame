@@ -37,7 +37,7 @@ public class PlayerCharacterController : MonoBehaviour
 
     [Header("Rotation")]
     [Tooltip("Rotation speed for moving the camera")]
-    public float rotationSpeed = 100f;
+    public float rotationSpeed = 200f;
     [Range(0.1f, 1f)]
     [Tooltip("Rotation speed multiplier when aiming")]
     public float aimingRotationMultiplier = 0.4f;
